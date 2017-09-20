@@ -23,5 +23,5 @@ def printer(names)
   # hello my name ....
   #hell my name..
   assign_rooms(names).each { |room | puts room}
-  
+
 end

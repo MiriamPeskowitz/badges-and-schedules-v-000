@@ -1,5 +1,5 @@
 # Write your code here.
-#202 224 3121 
+#202 224 3121
 names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
 def badge_maker(name)
@@ -10,8 +10,8 @@ def batch_badge_creator(names)
     return Array of badge messages ??
 end
 
-def assign_rooms(names) # give each speaker a room 
-  names.each_with_index.map {|name, index| 
+def assign_rooms(names) # give each speaker a room
+  names.each_with_index.map {|name, index|
   puts "Hello, #{name}! You'll be assigned to room ${name.each_with_index}!"
 
 ##
@@ -25,7 +25,7 @@ def assign_rooms(array)
   array.each_with_index.map do |name, index|
 
   puts "Hello, #{ name }! You'll be assigned to room #{names[name]}!"
-  
+
 end
 
 def printer(array)

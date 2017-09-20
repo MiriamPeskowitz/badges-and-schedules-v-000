@@ -13,7 +13,7 @@ def assign_rooms(names) # give each speaker a room
 
 end
 
-def batch_badge_creator(array)
+def batch_badge_creator(names)
   names.each {|name| puts "Hello, my name is #{name}."}
 end
 

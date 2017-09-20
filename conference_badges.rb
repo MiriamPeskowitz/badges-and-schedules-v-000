@@ -7,15 +7,17 @@ def badge_maker(name)
 end
 
 def assign_rooms(names) # give each speaker a room
-  names.each_with_index.map {|name, index|
+  names.each_with_index.map do |name, index|
+
   "Hello, #{name}! You'll be assigned to room ${name.each_with_index}!"
+  end
 end
 
 def batch_badge_creator(array)
   names.each {|name| puts "Hello, my name is #{name}."}
 end
 
-def printer 
+def printer
   puts batch_badge_creator
   puts assign_rooms
 end

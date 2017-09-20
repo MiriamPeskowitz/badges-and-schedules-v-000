@@ -14,7 +14,7 @@ def assign_rooms(names) # give each speaker a room
 end
 
 def batch_badge_creator(names)
-  names.map {|name| puts "Hello, my name is #{name}."}
+  names.map {|name| "Hello, my name is #{name}."}
 end
 
 def printer

@@ -8,7 +8,6 @@ end
 
 def assign_rooms(names) # give each speaker a room
   names.each_with_index.map do |name, index|
-
   "Hello, #{name}! You'll be assigned to room ${name.each_with_index}!"
   end
 end

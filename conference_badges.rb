@@ -18,6 +18,9 @@ def batch_badge_creator(names)
 end
 
 def printer(names)
-  puts batch_badge_creator(names)
+  puts batch_badge_creator(names).each {|badge| puts badge }
+  # ["hello my name...", "hello my name...."].each |badge| put badge
+  # hello my name ....
+  #hell my name..
   puts assign_rooms(names)
 end

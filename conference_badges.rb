@@ -2,18 +2,24 @@
 #202 224 3121
 names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
-def badge_maker(array)
-  names.each {|name| puts "Hello, my name is #{name}."}
-end
-
-def batch_badge_creator(array)
-    return 
+def badge_maker(name)
+  "Hello, my name is #{name}."}
 end
 
 def assign_rooms(names) # give each speaker a room
   names.each_with_index.map {|name, index|
-  puts "Hello, #{name}! You'll be assigned to room ${name.each_with_index}!"
+  "Hello, #{name}! You'll be assigned to room ${name.each_with_index}!"
 end
+
+def batch_badge_creator(array)
+  names.each {|name| puts "Hello, my name is #{name}."}
+end
+
+def printer 
+  puts batch_badge_creator
+  puts assign_rooms
+end
+
 ##
 
 
